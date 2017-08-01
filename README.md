@@ -10,3 +10,4 @@ git add
 
 # Log
 1. add index.html
+1. add about.html
