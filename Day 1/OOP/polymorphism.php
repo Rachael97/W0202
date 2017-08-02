@@ -11,9 +11,11 @@ $tiger = new Tiger();
 $bird = new Bird();
 $dog = new Dog();
 
+unset($dog); //dog will die here and 執行__destruct
+
 $zoo->animalIn($tiger);
 $zoo->animalIn($bird);
-$zoo->animalIn($dog);
+//$zoo->animalIn($dog);
 
 $zoo->performanceStart();
 
